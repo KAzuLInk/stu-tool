@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="StuTool · 高二数学">
+  <title>数学 · StuTool</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="navbar">
+    <div class="container">
+      <div class="brand">
+        <a href="index.html">
+          <span class="brand-icon"><i class="fas fa-book-open"></i></span>
+          <span>StuTool</span>
+        </a>
+      </div>
+      <ul class="nav-menu">
+        <li><a href="index.html"><i class="fas fa-house"></i><span>首页</span></a></li>
+        <li><a href="math.html" class="active"><i class="fas fa-square-root-variable"></i><span>数学</span></a></li>
+        <li><a href="chem.html"><i class="fas fa-flask"></i><span>化学</span></a></li>
+      </ul>
+    </div>
+  </header>
+
+  <section class="subject-hero math">
+    <div class="container">
+      <a class="subject-back" href="index.html"><i class="fas fa-arrow-left"></i> 返回首页</a>
+      <h1>数学</h1>
+      <p>高二数学 · 教案、课堂记录与课后总结</p>
+    </div>
+  </section>
+
+  <main class="container subject-main">
+    <div class="subject-layout">
+
+      <section class="lesson-list">
+        <!-- LESSONS_START -->
+        <a class="lesson-card" href="lesson-math-lesson-01.html">
+          <div class="lesson-meta">
+            <span><i class="fas fa-calendar"></i>2026-09-20</span>
+            <span><i class="fas fa-bookmark"></i>函数、导数</span>
+          </div>
+          <h3>第1课 · 函数与导数初步</h3>
+          <p class="lesson-topic">教案 · 课堂记录 · 课后总结</p>
+        </a>
+        <!-- LESSONS_END -->
+      </section>
+
+      <aside class="progress-panel">
+        <h3><i class="fas fa-chart-line"></i>学习进度</h3>
+        <p class="progress-sub">已上课次（新→旧）</p>
+        <div id="progressList">
+          <!-- PROGRESS_START -->
+          <div class="progress-item">
+            <div class="p-top">
+              <span class="p-title">第1课 · 函数与导数初步</span>
+              <span class="p-date">09-20</span>
+            </div>
+            <div class="progress-bar"><i style="width:100%"></i></div>
+          </div>
+          <!-- PROGRESS_END -->
+        </div>
+      </aside>
+
+    </div>
+  </main>
+
+  <footer>
+    <p>StuTool · 高二数学与化学家教记录</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
