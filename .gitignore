@@ -1,3 +1,8 @@
 # 依赖与临时文件
 node_modules/
 .DS_Store
+
+# 源文件不上传（部署只需要编译产物）
+posts/
+build.js
+README.md
